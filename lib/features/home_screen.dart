@@ -178,7 +178,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     padding: EdgeInsets.only(top: 5, bottom: 5),
                                     child: Divider(
                                       thickness: 1,
-                                      color: Colors.white54,
+                                      color: Colors.white30,
                                     ),
                                   ),
                                   const Row(
@@ -258,7 +258,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     AppColors.pinkBackgroundColor),
                               ],
                             ),
-                            AppLayout.smallH30,
+                            AppLayout.smallH20,
                             const Align(
                               alignment: Alignment.centerLeft,
                               child: Text("Do More With OneGold",
@@ -369,7 +369,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               Container(
                 height: 1,
-                color: Colors.black12,
+                color: AppColors.greyDividerColor,
               ),
               ListTile(
                 contentPadding: EdgeInsets.zero,
@@ -381,7 +381,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         style: TextStyle(
                             color: AppColors.greyTextColor,
                             fontSize: 10,
-                            fontWeight: FontWeight.w400)),
+                            fontWeight: FontWeight.w500)),
                     AppLayout.smallH,
                     Text("\$$metalPrice",
                         style: const TextStyle(
@@ -398,7 +398,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         style: TextStyle(
                             color: AppColors.greyTextColor,
                             fontSize: 10,
-                            fontWeight: FontWeight.w400)),
+                            fontWeight: FontWeight.w500)),
                     AppLayout.smallH,
                     Text("-$change %",
                         style: const TextStyle(

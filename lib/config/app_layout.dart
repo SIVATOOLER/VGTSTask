@@ -11,8 +11,8 @@ class AppLayout {
   static const spaceH10 = SizedBox(
     height: 10,
   );
-  static const smallH30 = SizedBox(
-    height: 30,
+  static const smallH20 = SizedBox(
+    height: 20,
   );
   static const smallH40 = SizedBox(
     height: 40,

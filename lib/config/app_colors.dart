@@ -14,4 +14,5 @@ class AppColors {
   static const Color yellowBackgroundColor = Color.fromARGB(255, 250, 243, 213);
   static const Color greyBackgroundColor = Color.fromARGB(255, 227, 227, 227);
   static const Color pinkBackgroundColor = Color.fromARGB(255,241,219,248,);
+  static const Color greyDividerColor = Color.fromARGB(34, 105, 105, 105);
 }
